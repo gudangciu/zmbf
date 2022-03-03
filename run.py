@@ -12,7 +12,7 @@ par.add_option(
 if __name__ == "__main__":
 	if(arg.bit=="64"):
 		try:
-			from ap64 import app as co
+			from ap64 import zmbf as co
 			co.make()
 		except Exception as e:
 			exit(e)
