@@ -12,12 +12,11 @@
  $ rm -rf zmbf
  $ git clone https://github.com/Fall-Xavier/zmbf
  ```
-#### CARA MENJALANKAN SCRIPT:
+#### CARA MENJALANKAN SCRIPT UNTUK 32 BIT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
   $ cd zmbf
-  $ cythonize -i zmbf.c
-  $ python run.py
+  $ python run.py --bit 32
  ```
 #### CARA MENGUPDATE SCRIPT:
  jika ingin mengupdate script, ketikan perintah dibawah ini:
