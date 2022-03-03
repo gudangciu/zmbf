@@ -18,7 +18,7 @@ if __name__ == "__main__":
 			exit(e)
 	elif(arg.bit=="32"):
 		try:
-			from ap32 import app as cok
+			from ap32 import zmbf as cok
 			cok.make()
 		except Exception as e:
 			exit(e)
