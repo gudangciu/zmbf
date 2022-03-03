@@ -18,13 +18,16 @@
   $ cd zmbf
   $ python run.py --bit 32
  ```
+#### CARA MENJALANKAN SCRIPT UNTUK 64 BIT:
+ sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
+ ```
+  $ cd zmbf
+  $ python run.py --bit 64
+ ```
 #### CARA MENGUPDATE SCRIPT:
  jika ingin mengupdate script, ketikan perintah dibawah ini:
  ```
   $ cd zmbf
   $ git pull
-  $ rm -rf *.so
-  $ cythonize -i zmbf.c
-  $ python run.py
  ```
  
