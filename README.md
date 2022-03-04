@@ -28,6 +28,4 @@
   $ cythonize -i zmbf.c
   $ python run.py
  ```
-#### CARA MENGETAHUI BERAPA BIT:
-untuk mengecek ketik perintah ini : uname -m jika muncul aarch64 maka kalian menjalankan menggunakan 64 bit dan jika muncul yang lain berarti kalian menjalankan menggunakan 32 bit
- 
+
