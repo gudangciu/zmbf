@@ -12,23 +12,21 @@
  $ rm -rf zmbf
  $ git clone https://github.com/Fall-Xavier/zmbf
  ```
-#### CARA MENJALANKAN SCRIPT UNTUK 32 BIT:
+#### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
   $ cd zmbf
-  $ python run.py --bit 32
- ```
-#### CARA MENJALANKAN SCRIPT UNTUK 64 BIT:
- sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
- ```
-  $ cd zmbf
-  $ python run.py --bit 64
+  $ cythonize -i zmbf.c
+  $ python run.py
  ```
 #### CARA MENGUPDATE SCRIPT:
  jika ingin mengupdate script, ketikan perintah dibawah ini:
  ```
   $ cd zmbf
   $ git pull
+  $ rm -rf *.so
+  $ cythonize -i zmbf.c
+  $ python run.py
  ```
 #### CARA MENGETAHUI BERAPA BIT:
 untuk mengecek ketik perintah ini : uname -m jika muncul aarch64 maka kalian menjalankan menggunakan 64 bit dan jika muncul yang lain berarti kalian menjalankan menggunakan 32 bit
