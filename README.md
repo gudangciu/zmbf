@@ -8,7 +8,7 @@
  ```
  $ pkg update && pkg upgrade
  $ pkg install python git
- $ pip install requests bs4 futures cython
+ $ pip install requests bs4 futures cython rich
  $ rm -rf zmbf
  $ git clone https://github.com/Fall-Xavier/zmbf
  ```
