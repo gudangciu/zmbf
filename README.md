@@ -8,15 +8,17 @@
  ```
  $ pkg update && pkg upgrade
  $ pkg install python git
- $ pip install requests bs4 futures cython rich
+ $ python -m pip install -r requirements.txt
  $ rm -rf zmbf
  $ git clone https://github.com/Fall-Xavier/zmbf
+ $ cd zmbf
+ $ cythonize -i zmbf.c
+ $ python run.py
  ```
 #### CARA MENJALANKAN SCRIPT:
  sekarang karena script sudah diinstall tinggal kita jalankan, ketikan perintah dibawah ini:
  ```
   $ cd zmbf
-  $ cythonize -i zmbf.c
   $ python run.py
  ```
 #### CARA MENGUPDATE SCRIPT:
